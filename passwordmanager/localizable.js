@@ -20,11 +20,11 @@ function english() {
     selectedLanguage = SupportedLanguage.English;
     elementHeader.innerHTML = "Password Manager";
     elementPrivacyPolicy.innerHTML = "Privacy Policy";
-    elementPrivacyPolicy.href = "./doc/privacy/en.html";
+    elementPrivacyPolicy.href = "./doc/privacy/privacy_policy_en";
 }
 function japanese() {
     selectedLanguage = SupportedLanguage.Japanese;
     elementHeader.innerHTML = "Password Manager - パスワード管理";
     elementPrivacyPolicy.innerHTML = "プライバシーポリシー";
-    elementPrivacyPolicy.href = "./doc/privacy/jp.html";
+    elementPrivacyPolicy.href = "./doc/privacy/privacy_policy_jp";
 }
